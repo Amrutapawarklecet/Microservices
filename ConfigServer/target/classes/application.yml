@@ -1,0 +1,14 @@
+server:
+  port: 8085
+  
+spring:
+  application:
+    name: CONFIG-SERVER
+    
+#Git hub configuration (Config-server)
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Amrutapawarklecet/Microservice-tutorial-config
+          clone-on-start: true
